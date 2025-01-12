@@ -7,17 +7,17 @@ services:
       cmd: ["python3", "-m", "main"]  
     env:
       - key: API_ID
-        value: "123456"  
+        value: "29565691"  
       - key: API_HASH
-        value: "abcd1234efgh5678" 
+        value: "e093998dbea2e7930d93a5ea14ba8cda" 
       - key: BOT_TOKEN
-        value: "123456:ABCDEF"  
+        value: "7057021367:AAHCu4Pvwi7VgxJhO1EgdhbzrydXnEhmxxk"  
       - key: SESSION
-        value: ""  # Pyrogram string session.
+        value: "BQHDIvsAkpoNHun_LO8ooT_IctvJJaBvSrMLWP6pYUkvjYic8WAsgsd7WDKD-iflSG8JfhtYS5fx3CGHirJgOK3tx2M2Jm-6gfMZfiYma7MQZH1y2DXf2KS09vYRmi7jFMjIz1D2C3nZV0kljrNUkcdYPRP6tKT47IDQbA3pzU9J_Z4_XPj8EXuIFWms0e5oaiT-3cB12uwUuzOo3rkDTXiY92bb0Cj4uaMCkdam5TED_vmGV5lSw9hNVV4EASsf_2hKOvv2t4Kp_6wwJLYxNdt6fsXw5pWbVtZqaGR_e_RJuzuP6f1YHx73gIdwMWk_ht5yLzdnXeQe-ycTD3fI9bMYJv2Y1wAAAAFx1b5xAA"  # Pyrogram string session.
       - key: AUTH
-        value: ""  # User ID of Bot owner
+        value: "1327415906"  # User ID of Bot owner
       - key: FORCESUB
-        value: ""  #Username name of public channel without using '@'
+        value: "officialharsh_g"  #Username name of public channel without using '@'
     ports:
       - protocol: http
         port: 8080  # Default HTTP port
