@@ -13,7 +13,7 @@ services:
       - key: BOT_TOKEN
         value: "7057021367:AAHCu4Pvwi7VgxJhO1EgdhbzrydXnEhmxxk"  
       - key: SESSION
-        value: "BQHDIvsAkpoNHun_LO8ooT_IctvJJaBvSrMLWP6pYUkvjYic8WAsgsd7WDKD-iflSG8JfhtYS5fx3CGHirJgOK3tx2M2Jm-6gfMZfiYma7MQZH1y2DXf2KS09vYRmi7jFMjIz1D2C3nZV0kljrNUkcdYPRP6tKT47IDQbA3pzU9J_Z4_XPj8EXuIFWms0e5oaiT-3cB12uwUuzOo3rkDTXiY92bb0Cj4uaMCkdam5TED_vmGV5lSw9hNVV4EASsf_2hKOvv2t4Kp_6wwJLYxNdt6fsXw5pWbVtZqaGR_e_RJuzuP6f1YHx73gIdwMWk_ht5yLzdnXeQe-ycTD3fI9bMYJv2Y1wAAAAFx1b5xAA"  # Pyrogram string session.
+        value: "BQHDIvsAkCltWb-mXhwpb66zE8SbMqJIJa7fp-iuFQMyNgsNbtnqQQuEcVsfwonIznkrAZnQBhJZVCWuRAnrrKy-H8Pmt2C7n2SyW9eEvIyZe2mQbhd8Z11LvQiD6ndzLzgYlgWttrOigEklmuKPo6Bjn4p_MpwTD-uYGWfepO09iAIDOEbauy5vmGImiGEZ4TiiDF-w5U8xTWi-dokpyIcjgE05e7wBjOkoZB5Itgj8mqbVo5h_mlhncU8ialqTwfAW7FXp5qKK4Y39dZTxnY5lf3GjITXQ5JTV9o_d1MURhtLIhz2-lXGbxL5cZIcn5LNENoDUfcZebSn1_NFVy6FZic9xzAAAAAFx1b5xAA"  # Pyrogram string session.
       - key: AUTH
         value: "1327415906"  # User ID of Bot owner
       - key: FORCESUB
