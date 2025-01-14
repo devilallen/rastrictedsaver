@@ -3,21 +3,26 @@ services:
   - name: python-bot
     type: web
     docker:
-      image: python:3.10  
-      cmd: ["python3", "-m", "main"]  
+      image: python:3.10
+      cmd: 
+        - /bin/bash
+        - -c
+        - |
+          pip install -r requirements.txt
+          python3 -m main
     env:
       - key: API_ID
-        value: "29565691"  
+        value: "29565691"
       - key: API_HASH
-        value: "e093998dbea2e7930d93a5ea14ba8cda" 
+        value: "e093998dbea2e7930d93a5ea14ba8cda"
       - key: BOT_TOKEN
-        value: "7057021367:AAHCu4Pvwi7VgxJhO1EgdhbzrydXnEhmxxk"  
+        value: "7057021367:AAHCu4Pvwi7VgxJhO1EgdhbzrydXnEhmxxk"
       - key: SESSION
-        value: "BQHDIvsAkCltWb-mXhwpb66zE8SbMqJIJa7fp-iuFQMyNgsNbtnqQQuEcVsfwonIznkrAZnQBhJZVCWuRAnrrKy-H8Pmt2C7n2SyW9eEvIyZe2mQbhd8Z11LvQiD6ndzLzgYlgWttrOigEklmuKPo6Bjn4p_MpwTD-uYGWfepO09iAIDOEbauy5vmGImiGEZ4TiiDF-w5U8xTWi-dokpyIcjgE05e7wBjOkoZB5Itgj8mqbVo5h_mlhncU8ialqTwfAW7FXp5qKK4Y39dZTxnY5lf3GjITXQ5JTV9o_d1MURhtLIhz2-lXGbxL5cZIcn5LNENoDUfcZebSn1_NFVy6FZic9xzAAAAAFx1b5xAA"  # Pyrogram string session.
+        value: "BQHDIvsAkCltWb-mXhwpb66zE8SbMqJIJa7fp-iuFQMyNgsNbtnqQQuEcVsfwonIznkrAZnQBhJZVCWuRAnrrKy-H8Pmt2C7n2SyW9eEvIyZe2mQbhd8Z11LvQiD6ndzLzgYlgWttrOigEklmuKPo6Bjn4p_MpwTD-uYGWfepO09iAIDOEbauy5vmGImiGEZ4TiiDF-w5U8xTWi-dokpyIcjgE05e7wBjOkoZB5Itgj8mqbVo5h_mlhncU8ialqTwfAW7FXp5qKK4Y39dZTxnY5lf3GjITXQ5JTV9o_d1MURhtLIhz2-lXGbxL5cZIcn5LNENoDUfcZebSn1_NFVy6FZic9xzAAAAAFx1b5xAA"
       - key: AUTH
-        value: "1327415906"  # User ID of Bot owner
+        value: "1327415906"
       - key: FORCESUB
-        value: "officialharsh_g"  #Username name of public channel without using '@'
+        value: "officialharsh_g"
     ports:
       - protocol: http
-        port: 8080  # Default HTTP port
+        port: 8080
