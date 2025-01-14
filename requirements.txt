@@ -9,4 +9,3 @@ opencv-python-headless
 python-decouple
 requests
 speedtest-cli
-https://github.com/LonamiWebs/Telethon/archive/v1.zip
